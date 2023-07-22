@@ -28,5 +28,42 @@ while(t--)
 
     return 0;
 }
+//new way 
+#include<bits/stdc++.h>
+using namespace std;
+int main ()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    long long t,a,b;
+    cin>>t;
+while(t--)
+    {
+
+
+        cin>>a>>b;
+
+        if(a%b==0)
+        cout<<0<<endl;
+
+       else if (a%b!=0)
+       {
+
+
+
+
+            cout<<(((a/b)+1)*b)-a<<endl;
+       }
+
+
+
+    }
+
+
+    return 0;
+}
+
+
 
 
